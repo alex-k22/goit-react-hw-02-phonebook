@@ -6,42 +6,7 @@
     font-size: 20px;
     color: #010101;
 }
-.form {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    border: 1px navy solid;
-}
-.input {
-    width: 300px;
-    height: 30px;
-    font-size: 16px;
-    border: 1px grey solid;
-    padding: 3px;
-    margin-top: 10px;
-}
-.button {
-    width: fit-content;
-    padding: 5px;
-    margin-top: 20px;
-}
-p {
-    margin: 5px;
-    
-}
-.item {
-    display: flex;
-    gap: 10px;
-}
-.delBtn {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    cursor: pointer;
-}
-.list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-top: 20px;
-}
+
+
+
+
