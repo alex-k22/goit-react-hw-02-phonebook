@@ -18,7 +18,7 @@ const FilterContacts = ({value, onChange}) => (
 
   FilterContacts.propTypes = {
     value: PropTypes.string.isRequired,
-    onChange: PropTypes.func,
+    onChange: PropTypes.func.isRequired,
   }
 
   export default FilterContacts;

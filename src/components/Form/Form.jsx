@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import PropTypes from 'prop-types';
 import css from './Form.module.css';
 
 class Form extends Component {
@@ -16,6 +17,10 @@ class Form extends Component {
     event.preventDefault();
     const { name, number } = this.state;
     this.props.onSubmit({name, number});
+    this.setState({
+      name: '',
+      number: '',
+    })
   };
 
   render() {
@@ -49,6 +54,10 @@ class Form extends Component {
       </form>
     );
   }
+}
+
+Form.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
 }
 
 export default Form;
